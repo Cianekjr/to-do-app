@@ -1,0 +1,37 @@
+.app {
+  text-align: center;
+}
+
+.app::before,
+.app::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  z-index: 1;
+}
+
+.app::before {
+  left: 0;
+  top: 0;
+  border-top: 3000px solid transparent;
+  border-left: 500px solid #00a896;
+}
+
+.app::after {
+  bottom: 0;
+  right: 0;
+  border-top: 3000px solid #00a896;
+  border-left: 500px solid transparent;
+}
+
+.app__title {
+}
+
+.btn {
+  background-color: transparent;
+  font-size: 20px;
+  padding: 6px 10px;
+  margin: 10px;
+  border: 2px solid #990434;
+  color: #a4abbf;
+}

@@ -1,0 +1,28 @@
+.addTask {
+  position: relative;
+  z-index: 2;
+  font-size: 20px;
+}
+
+.addTask__form {
+  margin: 20px;
+}
+
+.addTask__form--date {
+  margin: 5px;
+}
+
+.addTask__form--checkbox {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  top: 0;
+  transform: translateY(4px);
+  margin-right: 3px;
+}
+
+.input {
+  margin: 0 10px;
+  width: 220px;
+  font-size: 20px;
+}

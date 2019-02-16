@@ -1,0 +1,11 @@
+.tasks__active {
+  margin-top: 2%;
+  padding: 10px 0;
+  border-top: 5px solid #00a896;
+}
+
+.tasks__done {
+  margin-top: 3%;
+  padding: 10px 0;
+  border-top: 5px solid #00a896;
+}

@@ -1,0 +1,17 @@
+.task {
+  position: relative;
+  z-index: 2;
+  padding: 5px;
+  border-top: 2px solid #ccc;
+}
+
+.task__description--todo {
+  display: inline-block;
+}
+
+.task__description--date {
+}
+
+.task__done {
+  display: inline-block;
+}
